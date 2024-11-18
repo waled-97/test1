@@ -1,0 +1,80 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(https://images.unsplash.com/photo-1568738351265-c7065f5d4293?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.image{
+    
+    height: 550px;
+    width: 100%;
+    background-image: url(https://img.freepik.com/free-photo/anime-character-traveling_23-2151140116.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);
+    animation-name: photo;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 15px 0;
+
+}
+@keyframes photo {
+    10%{background-image: url(https://img.freepik.com/premium-photo/landscape-anime-wallpaper-images_845437-4543.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);
+    
+        text-align: center;
+        
+    }
+
+    30%{background-image: url(https://img.freepik.com/free-photo/bright-pop-landscape-design_23-2149213461.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);}
+    
+    50%{background-image: url(https://img.freepik.com/premium-photo/comic-style-illustration-time-vote-purple-hues_1177187-141919.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);}
+    
+    70%{background-image: url(https://img.freepik.com/premium-photo/white-cat-pink-feathery-dress-dancing_1282444-136294.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);}
+    
+    90%{background-image: url(https://img.freepik.com/premium-photo/synthwave-anime-manga-girl-lofi-bacground-wallpaper-design_877869-59142.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);}
+    
+    100%{background-image: url(https://img.freepik.com/free-photo/anime-night-sky-illustration_23-2151684327.jpg?ga=GA1.1.1511942800.1730381595&semt=ais_hybrid);}
+}
+table{
+    align-items: center;
+    background-size: cover;
+    
+}
+table tr td{
+    
+    padding-left: 40px;
+    padding-top: 20px;
+    text-align: left;
+    vertical-align: top;
+
+}
+iframe{
+    border: 3px solid black;
+}
+
+h6{
+    color: rgb(197, 89, 40);
+    font-family:"Haettenschweiler" ,Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 15px;
+    font-style: oblique;
+
+}
+hr {
+    background-color: red;
+    height: 4px;
+    border: none;
+}
+.explain{
+    width: 560px;
+    height: 150px;
+    font-family: "Century Gothic Italic" Arial, Helvetica, sans-serif;
+}
+.Home{
+
+}
+h1 a{
+    font-family: Century Schoolbook Bold ,Arial , Helvetica, sans-serif;
+    font-weight: 15px;
+    font-style: oblique;
+}
